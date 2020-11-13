@@ -16,7 +16,7 @@ GQA-OOD is a new dataset and benchmark for the evaluation of VGQ models in OOD (
 
 GQA-OOD is a benchmark based on a fine-grained reorganization of the [GQA dataset](https://cs.stanford.edu/people/dorarad/gqa/index.html), which allows to precisely answer these questions. It introduces distributions shifts in both validation and test splits, which are defined on question groups and are thus tailored to each question.
 
-<p align="center"><img src="images/protocol-v2.png" alt="drawing" width="290"/><img src="images/teaser-girl-v8.png" alt="drawing" width="300"/></p>
+<p align="center"><img src="images/protocol-v2.png" alt="drawing" width="300"/><img src="images/teaser-girl-v8.png" alt="drawing" width="400"/></p>
  	
 ## GQA-OOD evaluation data
 
@@ -44,7 +44,7 @@ We evaluate several VQA architectures on GQA-OOD:
 
 #### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
 
-<img src="images/tail_plot_models.PNG" alt="drawing" width="400"/>
+<img src="images/tail_plot_models.png" alt="drawing" width="400"/>
 
 ### VQA bias-reducing techniques
 
@@ -60,7 +60,7 @@ We evaluate on GQA-OOD several VQA methods designed to reduce bias dependacy:
 
 #### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
 
-<img src="images/tail_plot_methods.PNG" alt="drawing" width="400"/>
+<img src="images/tail_plot_methods.png" alt="drawing" width="400"/>
 
 ## GQA-OOD construction code
 
