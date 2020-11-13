@@ -4,7 +4,7 @@ GQA-OOD is a new dataset and benchmark for the evaluation of VGQ models in OOD (
 
 ### Abstract ###
 
-  *Visual Question Answering (VQA) models are notorious for their tendency to rely on dataset biases. The large and unbalanced diversity of questions and concepts involved in VQA and the lack of high standard annotated data tend to prevent models from learning to \say{reason}, leading them to perform \say{educated guesses} instead, relying on specific training set statistics, which is not helpful for generalizing to real world scenarios.*
+  *Visual Question Answering (VQA) models are notorious for their tendency to rely on dataset biases. The large and unbalanced diversity of questions and concepts involved in VQA and the lack of high standard annotated data tend to prevent models from learning to reason, leading them to perform educated guesses instead, relying on specific training set statistics, which is not helpful for generalizing to real world scenarios.*
 
   *In this paper, we claim that the standard evaluation metric, which consists in measuring the overall in-domain accuracy is misleading. Questions and concepts being unequally distributed, it tends to favor models which exploit subtle training set statistics.*
 
@@ -16,11 +16,11 @@ GQA-OOD is a new dataset and benchmark for the evaluation of VGQ models in OOD (
 
 GQA-OOD is a benchmark based on a fine-grained reorganization of the [GQA dataset](https://cs.stanford.edu/people/dorarad/gqa/index.html), which allows to precisely answer these questions. It introduces distributions shifts in both validation and test splits, which are defined on question groups and are thus tailored to each question.
 
-<p align="center"><img src="images/teaser-girl-v8.png" alt="drawing" width="450"/>
+<p align="center"><img src="images/teaser-girl-v8.png" alt="drawing" width="600"/>
  	
 ## GQA-OOD evaluation data
 
-<p align="center"><img src="images/protocol-v2.png" alt="drawing" width="300"/>
+<p align="center"><img src="images/protocol-v2.png" alt="drawing" width="500"/>
 
 GQA-OOD evaluation data are provided in "*data/*". You will find three files for each split (validation and testdev). These files correspond to the "*all*", "*head*" and "*tail*" question-anwsers required to compute "*acc-all*", "*acc-head*" and "*acc-tail*".
 
