@@ -1,6 +1,6 @@
 # The GQA-OOD Benchmark 
 
-GQA-OOD is a new dataset and benchmark for the evaluation of VQA models in OOD (out of distribution) settings. The corresponding paper "*Roses are Red, Violets are Blue... But Should VQA expect Them To?*" is currently under review at the CVPR 2021 conference.
+GQA-OOD is a new dataset and benchmark for the evaluation of VQA models in OOD (out of distribution) settings. The corresponding paper ["*Roses are Red, Violets are Blue... But Should VQA expect Them To?*"](https://arxiv.org/abs/2006.05121) has been accepted at the CVPR 2021 conference.
 
 ### Abstract ###
 
